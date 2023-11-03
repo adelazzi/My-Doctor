@@ -8,6 +8,6 @@ The main objective : Creating a communication platform between doctors and patie
 
 ## Screenshots
 
-![Mask group](https://github.com/adelazzi/MYDOC/assets/93773381/64e55014-d768-48c6-ae49-5371b440df2b)
+![Mask group](https://github.com/adelazzi/My-Doctor/assets/93773381/1522370e-b000-4420-9939-93a64edf2b13)
 
 
