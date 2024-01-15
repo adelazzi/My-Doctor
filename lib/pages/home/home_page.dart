@@ -36,34 +36,36 @@ class home extends StatelessWidget {
                   padding: const EdgeInsets.all(20),
                   child: Container(
                     child: Image.asset("assets/images/home.png"),
-                    
                   ),
                 ),
               )
             ],
             backgroundColor: appbar,
             toolbarHeight: size.height * .27,
-            bottom: TabBar(tabs: [
-              Center(
-                child: Tab(
-
-                  text: ' المؤسسـات',
-                  icon: Icon(Icons.h_mobiledata),
-                ),
-              ),
-              Center(
-                child: Tab(
-                  text: 'الأكثر شهرة',
-                  icon: Icon(Icons.star),
-                ),
-              ),
-              Center(
-                child: Tab(
-                  text: 'التخصصات',
-                  icon: Icon(Icons.people_outline_rounded),
-                ),
-              ),
-            ]),
+            bottom: TabBar(
+                indicatorColor: Colors.white,
+                labelColor: Colors.white,
+                unselectedLabelColor: appbar1,
+                tabs: [
+                  Center(
+                    child: Tab(
+                      text: ' المؤسسـات',
+                      icon: Icon(Icons.h_mobiledata),
+                    ),
+                  ),
+                  Center(
+                    child: Tab(
+                      text: 'الأكثر شهرة',
+                      icon: Icon(Icons.star),
+                    ),
+                  ),
+                  Center(
+                    child: Tab(
+                      text: 'التخصصات',
+                      icon: Icon(Icons.people_outline_rounded),
+                    ),
+                  ),
+                ]),
           ),
           body: TabBarView(
             children: [

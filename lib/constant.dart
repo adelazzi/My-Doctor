@@ -12,6 +12,7 @@ var ksp = Color.fromARGB(255, 151, 152, 228);
 //together
 var backgrond = Color.fromARGB(255, 246, 246, 246);
 var appbar = Color.fromARGB(255, 60, 132, 251);
+var appbar1 = Color.fromARGB(255, 27, 70, 141);
 var write = Color.fromARGB(255, 223, 250, 255);
 var write1 = Color.fromARGB(255, 24, 26, 30);
 var box = Color.fromARGB(255, 3, 58, 149);

@@ -8,7 +8,7 @@
 PRODUCT_NAME = mydoc1
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.mydoc1
+PRODUCT_BUNDLE_IDENTIFIER = com.sahellearning.mydoc
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2023 com.example. All rights reserved.

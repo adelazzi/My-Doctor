@@ -1,4 +1,4 @@
-package com.example.mydoc1
+package com.sahellearning.mydoc
 
 import io.flutter.embedding.android.FlutterActivity
 
