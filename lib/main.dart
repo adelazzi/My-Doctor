@@ -24,10 +24,13 @@ class MyApp extends StatelessWidget {
       supportedLocales: [
         Locale('ar', ''), // English, no country code
       ],
+      
       theme: ThemeData(
         fontFamily: 'ElMessi-ri',
       ),
+      
       home: hi(),
+    
     );
   } 
 }
