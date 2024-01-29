@@ -34,7 +34,7 @@ class doctor extends StatelessWidget {
                 color: appbar,
               ),
             ]),
-        height: size.height / 5,
+        height: size.height / 5.2,
         child: InkWell(
           onTap: () => Navigator.push(
               context,
@@ -44,9 +44,7 @@ class doctor extends StatelessWidget {
               )),
           child: Padding(
             padding: const EdgeInsets.all(10),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               Expanded(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -88,9 +86,12 @@ class doctor extends StatelessWidget {
                         SizedBox(
                           width: 20,
                         ),
-                        Text("عرض المزيد",style: TextStyle(
+                        Text(
+                          "عرض المزيد",
+                          style: TextStyle(
                             color: write,
-                          ),),
+                          ),
+                        ),
                       ],
                     )
                   ],

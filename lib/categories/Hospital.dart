@@ -34,7 +34,7 @@ class hospitall extends StatelessWidget {
                 spreadRadius: -23,
               ),
             ]),
-        height: size.height / 5.3,
+        height: size.height / 5.2,
         child: InkWell(
           onTap: () => Navigator.push(
               context,
