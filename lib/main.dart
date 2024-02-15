@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       ],
       // ignore: prefer_const_literals_to_create_immutables
       supportedLocales: [
-        Locale('ar', ''), // English, no country code
+        Locale('ar', ''), // arabic, no country code
       ],
       
       theme: ThemeData(
