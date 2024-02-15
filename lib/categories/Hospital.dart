@@ -34,7 +34,7 @@ class hospitall extends StatelessWidget {
                 spreadRadius: -23,
               ),
             ]),
-        height: size.height / 5.2,
+        height: size.height / 5,
         child: InkWell(
           onTap: () => Navigator.push(
               context,
@@ -43,7 +43,7 @@ class hospitall extends StatelessWidget {
                     hospital(name_hospitall, place, numb1, numb2, img),
               )),
           child: Padding(
-            padding: const EdgeInsets.all(10),
+            padding: const EdgeInsets.all(8),
             child: Row(children: [
               Expanded(
                 child: Column(
@@ -58,7 +58,7 @@ class hospitall extends StatelessWidget {
                         Text(name_hospitall,style: TextStyle(
                               color: write,
                               fontWeight: FontWeight.bold,
-                              fontSize: 19),),
+                              fontSize: 17),),
                         Text(place,style: TextStyle(
                             color: write,
                             fontWeight: FontWeight.w400,
